@@ -1,24 +1,13 @@
-/*
-Website Palette
-White F7F3E9
-Gray1 A6A58E
-Beige B6935F
-Gray2 8A8E86
-Gray3 484537
-
-
-
-*/
 
 :root{
-  --pal_c1: #F7F3E9;
-  --pal_c2: #A6A58E;
-  --pal_c3: #B6935F;
-  --pal_c4: #8A8E86;
-  --pal_c5: #484537;
+  --pal_c1: #F7F3E9; /*  Off White  */
+  --pal_c2: #A6A58E; /*  Washed out Green  */
+  --pal_c3: #B6935F; /*  Washed out Orange  */
+  --pal_c4: #8A8E86; /*  Light Gray  */
+  --pal_c5: #484537; /*  Dark Green  */
 
-  --pal_a1: #AD5B62;
-  --pal_a2: #796C75;
+  --pal_a1: #AD5B62; /*  Washed out Red  */
+  --pal_a2: #796C75; /*  Lavander  */
 }
 
 body{
@@ -39,7 +28,7 @@ h1, h2, h3{
 }
 
 #container{
-  background-color: white;
+  background-color: var(--pal_c1);
   width: 100%;
   height: 100%;
   float: left;
@@ -65,7 +54,7 @@ nav {
 
 nav ul {
 	list-style: none;
-	width: 800px;
+	width: 830px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -87,6 +76,10 @@ nav li:first-child a {
 
 nav li a:hover {
 	color: var(--pal_a1);
+}
+
+.selected{
+  color: var(--pal_c4);
 }
 
 
