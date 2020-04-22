@@ -22,7 +22,7 @@ a{
   color:red;
 }
 
-h1, h3{
+h1{
   margin: 0;
   clear: both;
 }
@@ -30,6 +30,12 @@ h1, h3{
 h2{
   clear: both;
   text-align: center;
+  font-size: 36px;
+}
+
+h3{
+  clear: both;
+  text-align: left;
   font-size: 36px;
 }
 
